@@ -43,6 +43,9 @@ composer require laravel/sail --dev
 php artisan sail:install
 ```
 - mysql
+- redis
+- selenium
+- meilisearch
 - mailpit
 を選択
 
