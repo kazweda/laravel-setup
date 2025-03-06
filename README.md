@@ -42,7 +42,9 @@ composer require laravel/sail --dev
 ```
 php artisan sail:install
 ```
-mysqlを選択
+- mysql
+- mailpit
+を選択
 
 コンテナの構築が始まる。（しばらくかかります）
 ### サービスの起動
