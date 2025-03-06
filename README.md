@@ -24,13 +24,22 @@ composer run dev
 ブラウザで開いてみる。
 http://127.0.0.1:8000
 
-## Devcontainerの使用
+### Devcontainerの使用
 https://readouble.com/laravel/12.x/ja/sail.html#configuring-a-shell-alias
+
 もし、Devcontainer内で開発したい場合は、--devcontainerオプションをsail:installコマンドで指定してください。
---devcontainerオプションは、sail:installコマンドに、
-デフォルトの.devcontainer/devcontainer.jsonファイルを
+--devcontainerオプションは、sail:installコマンドに、デフォルトの.devcontainer/devcontainer.jsonファイルを
 アプリケーションのルートにリソース公開するように指示します。
 
 ```sh
 php artisan sail:install --devcontainer
 ```
+### sailの準備
+```sh
+composer require laravel/sail --dev
+```
+### サービスの追加
+```
+php artisan sail:install
+```
+mysqlを選択
