@@ -43,3 +43,10 @@ composer require laravel/sail --dev
 php artisan sail:install
 ```
 mysqlを選択
+
+コンテナの構築が始まる。（しばらくかかります）
+### サービスの起動
+```sh
+sail up -d
+```
+
