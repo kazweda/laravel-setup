@@ -7,8 +7,19 @@ PHP、Composer、Laravelがインストールされる。
 source ~/.zshrc
 ```
 
-### starter kit
+### プロジェクトを作成
+```sh
+laravel new example-app
+```
+#### starter kit
 - none
-### database
-- MySQL
-- 
+#### database
+- SQLite
+
+### 起動
+```sh
+cd example-app
+composer run dev
+```
+ブラウザで開いてみる。
+http://127.0.0.1:8000
