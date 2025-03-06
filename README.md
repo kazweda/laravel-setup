@@ -6,3 +6,9 @@ PHP、Composer、Laravelがインストールされる。
 ```sh
 source ~/.zshrc
 ```
+
+### starter kit
+- none
+### database
+- MySQL
+- 
